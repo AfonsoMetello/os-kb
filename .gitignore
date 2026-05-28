@@ -1,0 +1,18 @@
+# Upstream OutSystems doc clones (reproducible from public repos -- see README.md)
+.os-docs-o11/
+.os-docs-odc/
+.os-docs-support/
+.os-docs-howtos/
+
+# Curated derivative content -- not redistributable under upstream CC BY-NC-ND.
+# Framework meta files (_router, _maintenance, _index) are tracked.
+kb/**/*.md
+!kb/_router.md
+!kb/_maintenance.md
+!kb/**/_index.md
+
+# Claude Code local-only settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
